@@ -2,3 +2,39 @@
 html, body {
     margin: 20px;
 }
+
+.circle {
+    position: relative;
+    background-color: blueviolet;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    display: inline-block;
+}
+
+.center {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.outer-center {
+    float: right;
+    right: 50%;
+    position: relative;
+}
+.inner-center {
+    float: right;
+    right: -50%;
+    position: relative;
+}
+.clear {
+    clear: both;
+}
+
+.draggable-servers {
+    background-color: green;
+}
